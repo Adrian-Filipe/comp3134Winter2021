@@ -1,0 +1,4 @@
+root@Comp3134:~# ping georgebrown.ca
+
+PING georgebrown.ca (99.79.139.11) 56(84) bytes of data.
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=1 ttl=48 time=9.07 ms

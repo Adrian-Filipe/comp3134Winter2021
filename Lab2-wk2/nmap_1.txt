@@ -1,0 +1,55 @@
+root@Comp3134:~# nmap georgebrown.ca
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-25 14:20 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0084s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+-----------------------------------
+
+root@Comp3134:~# nmap -p 8084 georgebrown.ca
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-25 14:23 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0083s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+
+PORT     STATE    SERVICE
+8084/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+
+------------------------------------------
+
+root@Comp3134:~# nmap -p 1 6 georgebrown.ca
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-25 14:24 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0084s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+
+PORT  STATE    SERVICE
+1/tcp filtered tcpmux
+
+Nmap done: 2 IP addresses (1 host up) scanned in 1.45 seconds
+
+--------------------------------------------------
+
+root@Comp3134:~# nmap -f georgebrown.ca
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-25 14:24 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0092s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+All 1000 scanned ports on georgebrown.ca (99.79.139.11) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 21.11 seconds
+
+
+
+

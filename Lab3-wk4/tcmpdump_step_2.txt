@@ -1,0 +1,11 @@
+root@Comp3134:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:19:42.790356 IP Comp3134.ssh > cpe1033bf982cdf-cm1033bf982cdd.cpe.net.cable.rogers.com.63513: Flags [P.], seq 2924973542:2924973650, ack 638201744, win 501, length 108
+15:19:42.790406 IP Comp3134.ssh > cpe1033bf982cdf-cm1033bf982cdd.cpe.net.cable.rogers.com.63513: Flags [P.], seq 108:144, ack 1, win 501, length 36
+15:19:42.790439 IP Comp3134.ssh > cpe1033bf982cdf-cm1033bf982cdd.cpe.net.cable.rogers.com.63513: Flags [P.], seq 144:252, ack 1, win 501, length 108
+15:19:42.790467 IP Comp3134.ssh > cpe1033bf982cdf-cm1033bf982cdd.cpe.net.cable.rogers.com.63513: Flags [P.], seq 252:288, ack 1, win 501, length 36
+15:19:42.790968 IP Comp3134.43847 > 67.207.67.2.domain: 6521+ [1au] PTR? 180.88.228.99.in-addr.arpa. (55)
+5 packets captured
+28 packets received by filter
+0 packets dropped by kernel

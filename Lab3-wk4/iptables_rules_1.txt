@@ -1,0 +1,9 @@
+root@Comp3134:~# iptables -L -v
+Chain INPUT (policy ACCEPT 13678 packets, 1025K bytes)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain OUTPUT (policy ACCEPT 146K packets, 42M bytes)
+ pkts bytes target     prot opt in     out     source               destination
