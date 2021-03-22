@@ -1,0 +1,19 @@
+Command = udp
+
+Ip 1
+Source: 10.0.0169
+Destination: 35.183.77.255
+Source Port: 65385
+Destination Port: 61517
+
+Ip 2
+Source: 35.183.77.255
+Destination: 10.0.0.169
+Source Port: 61517
+Destination Port: 65385
+
+Ip 3
+Source: 10.0.0169
+Destination: 35.183.77.255
+Source Port: 65385
+Destination Port: 61517
