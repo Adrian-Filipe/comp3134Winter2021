@@ -1,0 +1,19 @@
+root@Comp3134:~# tcpdump -c 10
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:31:24.319348 IP Comp3134.ssh > cpe1033bf982cdf-cm1033bf982cdd.cpe.net.cable.rogers.com.53508: Flags [P.], seq 3988641806:3988641914, ack 2339432015, win 501, length 108
+15:31:24.319398 IP Comp3134.ssh > cpe1033bf982cdf-cm1033bf982cdd.cpe.net.cable.rogers.com.53508: Flags [P.], seq 108:144, ack 1, win 501, length 36
+15:31:24.319428 IP Comp3134.ssh > cpe1033bf982cdf-cm1033bf982cdd.cpe.net.cable.rogers.com.53508: Flags [P.], seq 144:252, ack 1, win 501, length 108
+15:31:24.319454 IP Comp3134.ssh > cpe1033bf982cdf-cm1033bf982cdd.cpe.net.cable.rogers.com.53508: Flags [P.], seq 252:288, ack 1, win 501, length 36
+15:31:24.319920 IP Comp3134.52325 > 67.207.67.2.domain: 23915+ [1au] PTR? 77.84.228.99.in-addr.arpa. (54)
+15:31:24.320199 IP Comp3134.48575 > 67.207.67.2.domain: 61347+ [1au] PTR? 40.216.110.143.in-addr.arpa. (56)
+15:31:24.320243 IP Comp3134.32849 > 67.207.67.2.domain: 27274+ [1au] PTR? 40.216.110.143.in-addr.arpa. (56)
+15:31:24.320817 IP 67.207.67.2.domain > Comp3134.32849: 27274 NXDomain 0/1/1 (123)
+15:31:24.320892 IP Comp3134.32849 > 67.207.67.2.domain: 27274+ PTR? 40.216.110.143.in-addr.arpa. (45)
+15:31:24.320910 IP 67.207.67.2.domain > Comp3134.48575: 61347 NXDomain 0/1/1 (12
+3)
+15:31:24.320892 IP Comp3134.32849 > 67.207.67.2.domain: 27274+ PTR? 40.216.110.143.in-addr.arpa. (45)
+15:31:24.320910 IP 67.207.67.2.domain > Comp3134.48575: 61347 NXDomain 0/1/1 (123)
+10 packets captured
+25 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,4 @@
+1) I enter the word love and returns the deffinition of love - nothing out of the ordinary here
+2) I enter the word lovef in the url and it returns this https://www.dictionary.com/misspelling?term=lovef
+3) I enter <script>alert(%27hello27%)</script> and the page returns 400 Bad Request
+4) I enter <script>alert(%27hello27%)</script> in the url and it returns 400 Bad Request in a different font and format as if it was outputing it

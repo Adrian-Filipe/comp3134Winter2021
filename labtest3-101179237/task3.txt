@@ -1,0 +1,14 @@
+C:\Users\adria>ping -l 1000 178.128.237.247
+
+Pinging 178.128.237.247 with 1000 bytes of data:
+Request timed out.
+Reply from 178.128.237.247: bytes=1000 time=44ms TTL=56
+Reply from 178.128.237.247: bytes=1000 time=38ms TTL=56
+Reply from 178.128.237.247: bytes=1000 time=38ms TTL=56
+
+Ping statistics for 178.128.237.247:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 38ms, Maximum = 44ms, Average = 40ms
+
+C:\Users\adria>
